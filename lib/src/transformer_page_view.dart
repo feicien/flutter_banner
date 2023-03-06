@@ -1,4 +1,5 @@
 import 'package:flutter/widgets.dart';
+import 'package:flutter_swiper_view/src/swiper.dart';
 
 import 'index_controller.dart';
 
@@ -10,9 +11,6 @@ import 'index_controller.dart';
 ///
 ///
 ///
-
-const int kMaxValue = 2000000000;
-const int kMiddleValue = 1000000000;
 
 ///  Default auto play transition duration (in millisecond)
 const int kDefaultTransactionDuration = 300;
