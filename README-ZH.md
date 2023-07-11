@@ -255,7 +255,7 @@ Swiper(
 
 | 参数            | 默认值             |           描述     |
 | :------------ |:---------------:| :-----|
-| autoplayDely | 3000  | 自动播放延迟毫秒数. |
+| autoplayDelay | 3000  | 自动播放延迟毫秒数. |
 | autoplayDisableOnInteraction | true | 当用户拖拽的时候，是否停止自动播放. |
 
 
