@@ -89,11 +89,8 @@ abstract class _CustomLayoutStateBase<T extends _SubSwiper> extends State<T> wit
   Widget _buildItem(int i, int realIndex, double animationValue);
 
   Widget _buildContainer(List<Widget> list) {
-    return Container(
-      color: Colors.black,
-      child: Stack(
-        children: list,
-      ),
+    return Stack(
+      children: list,
     );
   }
 

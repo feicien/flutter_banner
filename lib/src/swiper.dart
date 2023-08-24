@@ -962,7 +962,7 @@ class _StackViewState extends _CustomLayoutStateBase<_StackSwiper> {
         offset: offset,
         child: Transform.scale(
           scale: s,
-          alignment: Alignment.centerLeft,
+          alignment: alignment,
           child: SizedBox(
             width: widget.itemWidth ?? double.infinity,
             height: widget.itemHeight ?? double.infinity,
